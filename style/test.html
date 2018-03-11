@@ -1,0 +1,48 @@
+<html>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style type="text/css">
+
+    *, *:before, *:after {
+      -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    }
+    body { margin: 0; }
+    .columnsContainer, footer{ position: relative; margin: .5em; }
+    .leftColumn, .rightColumn, footer {  border: 1px solid  #ccc; padding: 1.25em; }
+    .rightColumn {
+        border: 1px solid  #ccc; 
+        padding: 1.25em;
+        background-color: #1da1f2;
+    }
+    .leftColumn { margin-bottom: .5em; }
+    /* MEDIA QUERIES */
+    @media screen and (min-width: 47.5em ) {
+      .leftColumn { margin-right: 50%; }
+      .rightColumn { position: absolute; top: 0; right: 0; width: 50%; background-color: #1da1f2}   
+    }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div class="columnsContainer">
+        <div class="leftColumn">
+            <h2>Left Column</h2>
+            
+
+        </div>
+
+        <div class="rightColumn">
+            <h2>Right Column</h2>
+            
+        </div>
+    </div>
+
+    <footer>
+        <p><a href="#">Contact Us</a> | <a href="#">Sitemap</a> | <a href="#">Privacy Policy</a></p>
+        <p>&copy;2014 Copyright info here...</p>
+    </footer>
+  </body>
+</html>

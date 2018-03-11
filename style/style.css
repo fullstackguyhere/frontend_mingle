@@ -1,45 +1,77 @@
-.main-landing {
-    display:flex;
-    flex-direction:column;
-    min-height:100%
-   }
-   .main-landing-content {
-    background-color:#fff;
-    display:flex;
-    flex-direction:row-reverse;
-    flex-grow:1
-   }
-   .main-landing-cell {
-    align-items:center;
-    display:flex;
-    flex:1;
-    justify-content:center;
-    position:relative;
-   }
-   .main-landing-utilityBlock{
-    top:50px;
-   }
-   .main-landing-communicationBlock {
-    background:#1da1f2;
-    overflow:hidden;
-    position:relative
-   }
+#mymingle4{
+ margin-top: 10%;
+}
 
-   .left-input-user {
-       float: left
-   }
+#mymingle5{
+ padding-bottom: 15%;
+}
+
+#mybutton{
+  border-left: 8px;
+  border-right: 8px;
+}
    
-   .signup
-   {
-    position: relative;
-   }
-   .signup-header
-   {    
-        display: inline;   
-        float: none;
-        width: 50%;
-        position:absolute; 
-        right : 200px;
-        bottom:0;
-       top: 100px;
-   }
+.signup {
+  position: relative;
+}
+
+.signup-header {    
+    display: inline;   
+    float: none;
+    width: 50%;
+    position:absolute; 
+    right : 200px;
+    bottom:0;
+   top: 100px;
+}
+
+
+*, *:before, *:after {
+      -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    }
+    
+body {
+  margin: 0; 
+}
+
+.columnsContainer, footer{ 
+  /*position: relative; margin: .5em;  NATIVE*/
+  position: relative; margin: 0em;
+}
+
+.leftColumn, .rightColumn, footer {
+  /*border: 0px solid  #ccc; NATIVE*/
+  padding: 2em;
+}
+
+.rightColumn {
+  /*border: 1px solid red; */
+  padding: 1.25em;
+  background-color: #1da1f2;
+  min-height: 100%;
+}
+
+.leftColumn {
+  margin-bottom: .5em; 
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 47.5em ) {
+  .leftColumn { 
+    margin-right: 50%;
+  }
+  .rightColumn {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    width: 50%; 
+    background-color: #1da1f2; 
+    min-height: 100%;
+  }
+}
+
+.logo-here h1{
+  margin-top: 50%;
+  min-height: 200px;
+  border: 0px solid red;
+}
