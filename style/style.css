@@ -1,0 +1,45 @@
+.main-landing {
+    display:flex;
+    flex-direction:column;
+    min-height:100%
+   }
+   .main-landing-content {
+    background-color:#fff;
+    display:flex;
+    flex-direction:row-reverse;
+    flex-grow:1
+   }
+   .main-landing-cell {
+    align-items:center;
+    display:flex;
+    flex:1;
+    justify-content:center;
+    position:relative;
+   }
+   .main-landing-utilityBlock{
+    top:50px;
+   }
+   .main-landing-communicationBlock {
+    background:#1da1f2;
+    overflow:hidden;
+    position:relative
+   }
+
+   .left-input-user {
+       float: left
+   }
+   
+   .signup
+   {
+    position: relative;
+   }
+   .signup-header
+   {    
+        display: inline;   
+        float: none;
+        width: 50%;
+        position:absolute; 
+        right : 200px;
+        bottom:0;
+       top: 100px;
+   }
